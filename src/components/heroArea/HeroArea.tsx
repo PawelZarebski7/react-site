@@ -40,7 +40,7 @@ const HeroArea: React.FC<Props> = ({ type }) => {
           id="home-1"
           className="homepage-slides"
         >
-          {(type ? banner.slice(0, 2) : banner.slice(2)).map((item) => (
+          {(type ? banner.slice(0, 4) : banner.slice(4)).map((item) => (
             <SwiperSlide key={item.id} className="single-slide-item">
               <div
                 className="image-layer"
