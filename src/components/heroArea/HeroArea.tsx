@@ -36,7 +36,7 @@ const HeroArea: React.FC<Props> = ({ type }) => {
           slidesPerView={1}
           loop={true}
           speed={1500}
-          autoplay={{ delay: 5000, disableOnInteraction: false }}
+          autoplay={{ delay: 6500, disableOnInteraction: false }}
           id="home-1"
           className="homepage-slides"
         >
