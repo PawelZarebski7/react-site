@@ -2,7 +2,7 @@
   "banner": [
     {
       "id": "b1",
-      "img": "/assets/img/slider/2.jpg",
+      "img": "/assets/img/slider/Software.webp",
       "heading": "Programowanie | Automatyzacje | Sztuczna inteligencja | Grafika",
       "motive": {
         "m1": "Nasze usługi",
@@ -15,7 +15,7 @@
     },
     {
       "id": "b2",
-      "img": "/assets/img/slider/3.jpg",
+      "img": "/assets/img/slider/Graphic.webp",
       "heading": "Grafika | Programowanie | Automatyzacje | Sztuczna inteligencja",
       "motive": {
         "m1": "Nasze usługi",
@@ -28,7 +28,7 @@
     },
     {
       "id": "b3",
-      "img": "/assets/img/slider/8.jpg",
+      "img": "/assets/img/slider/A.I.webp",
       "heading": "Sztuczna inteligencja | Grafika | Programowanie | Automatyzacje",
       "motive": {
         "m1": "Nasze usługi",
@@ -41,7 +41,7 @@
     },  
     {
       "id": "b4",
-      "img": "/assets/img/slider/7.jpg",
+      "img": "/assets/img/slider/Automation.webp",
       "heading": "Automatyzacje | Sztuczna inteligencja | Grafika | Programowanie",
       "motive": {
         "m1": "Nasze usługi",
