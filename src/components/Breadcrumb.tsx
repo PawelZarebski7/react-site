@@ -24,7 +24,7 @@ const Breadcrumb: React.FC = () => {
       <div className="breadcrumb-inner">
         <h2 className="text-white">{pageTitle}</h2>
         <h6 className="text-white">
-          <Link to="/">Home</Link> / {pageTitle}
+          <Link to="/">Główna</Link> / {pageTitle}
         </h6>
       </div>
     </div>
