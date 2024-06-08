@@ -2,31 +2,35 @@
   "testimonials": [
     {
       "id": "t1",
-      "img": "/assets/img/testimonial/1.jpg",
-      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
-      "name": "Albert Krish",
-      "rank": "Social Activist"
+      "img": "/assets/img/testimonial/evita.png",
+      "comment": "Przebudowa logki sprzedażowej sklepu poprawa skuteczności witryny",
+      "name": "Evita",
+      "rank": "Sklep z luksusową odzieżą",
+      "link": "https://evita7.pl/"
     },
     {
       "id": "t2",
-      "img": "/assets/img/testimonial/2.jpg",
-      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
-      "name": "Bill Lorris",
-      "rank": "Business Man"
+      "img": "/assets/img/testimonial/frodo.png",
+      "comment": "Automatyzacja odpowiedzi na emaile oraz tworzenia kontentu z użcyiem AI",
+      "name": "Frodo",
+      "rank": "Automatyzacja procesów w firmie",
+      "link": "https://frodo.biz/"
     },
     {
       "id": "t3",
-      "img": "/assets/img/testimonial/3.jpg",
-      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
-      "name": "Josh Batlar",
-      "rank": "Factory Foreman"
+      "img": "/assets/img/testimonial/wawel.png",
+      "comment": "Nowoczesna angielsko języczna strona internetowa dla klientów z Azji",
+      "name": "Wawel",
+      "rank": "Strona biura podróży",
+      "link": "https://waweldragontours.eu/"
     },
     {
       "id": "t4",
-      "img": "/assets/img/testimonial/4.jpg",
-      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
-      "name": "Joe Root",
-      "rank": "Industry Supervisor"
+      "img": "/assets/img/testimonial/mobi.png",
+      "comment": "Utrzymanie i rozwój aplikacji mobilnej dla firm z GPS i czytnikiem QR",
+      "name": "Mobi",
+      "rank": "Aplikacja mobilna dla firm",
+      "link": "https://mobipest.eu/"
     },
     {
       "id": "t5",

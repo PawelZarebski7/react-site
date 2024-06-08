@@ -4,6 +4,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import useGetData from "../../hooks/useGetData";
+import { Link } from "react-router-dom";
 
 interface Testimonial {
   id: string;
@@ -11,6 +12,7 @@ interface Testimonial {
   comment: string;
   name: string;
   rank: string;
+  link: string;
 }
 
 interface RequestObject {
@@ -29,10 +31,10 @@ const Testimonial1: React.FC = () => {
             <div className="row">
               <div className="col-lg-12 text-center">
                 <div className="section-title">
-                  <h6>Testimonial</h6>
+                  <h6>Realizacje</h6>
                   <h2>
-                    Happy <b> Client </b>Says <br />
-                    About Us
+                    Poznaj <b> najnowsze </b>realizacje <br />
+                    NovaTech
                   </h2>
                 </div>
               </div>
@@ -68,6 +70,7 @@ const Testimonial1: React.FC = () => {
                         key={testimonial.id}
                         className="single-testimonial-item"
                       >
+                        <Link to={testimonial.link}target="_blank">
                         <div className="testimonial-icon">
                           <i className="las la-quote-left"></i>
                         </div>
@@ -81,6 +84,7 @@ const Testimonial1: React.FC = () => {
                             <span>{testimonial.rank}</span>
                           </div>
                         </div>
+                        </Link>
                       </SwiperSlide>
                     ))}
                   </Swiper>
