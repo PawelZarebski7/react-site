@@ -72,7 +72,7 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
-        path: "/blogs",
+        path: "/blog",
         element: <Blog />,
         errorElement: <ErrorPage />,
       },

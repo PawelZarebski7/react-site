@@ -99,16 +99,15 @@ const HeaderArea: React.FC = () => {
                           </li>
 
                           <li className="nav-item">
-                            <a
+                            <Link to="/blog"
                               onMouseEnter={() => setActiveMenu("blogs")}
                               className={`nav-link ${
                                 activeMenu === "blogs" ? "active" : ""
                               }`}
-                              href="/blogs"
                             >
                               Blog
                               <span className="sub-nav-toggler"> </span>
-                            </a>
+                            </Link>
                           </li>
 
                           <li className="nav-item smooth-menu">
