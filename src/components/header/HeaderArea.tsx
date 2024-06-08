@@ -67,7 +67,7 @@ const HeaderArea: React.FC = () => {
                           </li>
                           <li className="nav-item smooth-menu">
                             <Link
-                              to="/services"
+                              to="/uslugi"
                               onMouseEnter={() => setActiveMenu("services")}
                               className={`nav-link ${
                                 activeMenu === "services" ? "active" : ""
@@ -113,7 +113,7 @@ const HeaderArea: React.FC = () => {
 
                           <li className="nav-item smooth-menu">
                             <Link
-                              to="/contact"
+                              to="/kontakt"
                               onMouseEnter={() => setActiveMenu("contact")}
                               className={`nav-link ${
                                 activeMenu === "contact" ? "active" : ""

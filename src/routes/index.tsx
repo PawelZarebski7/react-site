@@ -32,7 +32,7 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
-        path: "/contact",
+        path: "/kontakt",
         element: <Contact />,
         errorElement: <ErrorPage />,
       },
@@ -57,7 +57,7 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
-        path: "/services",
+        path: "/uslugi",
         element: <Services />,
         errorElement: <ErrorPage />,
       },
