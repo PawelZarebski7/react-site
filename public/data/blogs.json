@@ -2,29 +2,29 @@
   "blogs": [
     {
       "id": "b1",
-      "img": "/assets/img/blog/blog-bg-1.jpg",
+      "img": "/assets/img/blog/blog1.png",
       "author": "Admin",
       "num_comments": 7,
-      "date": "25 Feb",
-      "heading": "Wallwork brings aircraft technology to medical implants",
+      "date": "01 Cze",
+      "heading": "Automatyzacja odpowiedzi do klienta z użciem instancji ChatGPT",
       "title": "There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam."
     },
     {
       "id": "b2",
-      "img": "/assets/img/blog/blog-bg-2.jpg",
+      "img": "/assets/img/blog/blog2.png",
       "author": "Admin",
       "num_comments": 7,
-      "date": "07 Mar",
-      "heading": "Using automation to combat the impending labour shortage",
+      "date": "05 Cze",
+      "heading": "Wykorzystanie automatyzacji do tworzenia contentu marketingowego",
       "title": "There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam."
     },
     {
       "id": "b3",
-      "img": "/assets/img/blog/blog-bg-3.jpg",
+      "img": "/assets/img/blog/blog3.png",
       "author": "Admin",
       "num_comments": 7,
       "date": "30 Apr",
-      "heading": "Investment in manufacturing is essential in post-Brexit",
+      "heading": "Walidacja, typowanie i debugowanie kodu z użcyiem Copilot w VSC",
       "title": "There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam."
     },
     {

@@ -46,7 +46,7 @@ const Blog1: React.FC<Props> = ({ type }) => {
               <div className="section-title">
                 <h6>Blog</h6>
                 <h2>
-                  What <b>happen</b> inside our <b>company</b>
+                  Najnowsze <b>artykuły</b> 
                 </h2>
               </div>
             </div>
