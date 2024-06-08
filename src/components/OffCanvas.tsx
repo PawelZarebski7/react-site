@@ -14,38 +14,37 @@ const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
           </button>
         </div>
         <div className="logo-side mb-30">
-          <a href="index.html" className="site-logo-2">
-            <img src="/assets/img/logo-white.png" alt="" />
+          <a href="/" className="site-logo-2">
+            <img src="/assets/img/novatech-white-logo.png" alt="Logo NovaTech" />
           </a>
         </div>
         <div className="side-info">
           <div className="contact-list mb-40">
-            <h4>About Us</h4>
+            <h4>O nas</h4>
             <p>
-              We must explain to you how all seds this mistakens idea off
-              denouncing pleasures and praising pain was born and I will give
-              you a completed accounts of the system and expound.
+              Serdecznie zapraszam do skorzystania z usług firmy w zakresie projektowania, administorwania systemami IT,
+              wdrożeń systemów no code opartych o sztuczną inteligencję, wsparcia w zakresie S.E.O oraz grafiki komputerowej.
             </p>
             <div className="mt-30 mb-30">
-              <a href="contact.html" className="main-btn">
-                Get In Touch
+              <a href="/kontakt" className="main-btn">
+                Kontakt
               </a>
             </div>
           </div>
           <div className="contact-list mb-40">
-            <h4>Contact Info</h4>
+            <h4>Informacje kontaktowe</h4>
             <p>
               <i className="las la-rocket"></i>
               <span>
-                Australia- 175 24th Street, Office 3567 Melbourn, EA 265
+                Ogrodowa 7, 86-010 Koronowo
               </span>
             </p>
             <p>
-              <i className="las la-phone"></i> <span>+18-4675826</span>
+              <i className="las la-phone"></i> <span>500234234</span>
             </p>
             <p>
               <i className="las la-envelope-open"></i>
-              <span>info@industrify.com</span>
+              <span>pawelzarebski7@wp.pl</span>
             </p>
           </div>
         </div>
