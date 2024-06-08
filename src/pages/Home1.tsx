@@ -4,10 +4,8 @@ import {
   HeaderArea,
   HeroArea,
   Promo,
-  About1,
   Service1,
   Project1,
-  Clients,
   Testimonial1,
   ProjectCounter,
   Blog1,
@@ -20,10 +18,8 @@ const Home1: React.FC = () => {
       <HeaderArea />
       <HeroArea type={true} />
       <Promo />
-      <About1 />
       <Service1 />
       <Project1 type={false} />
-      <Clients />
       <Testimonial1 />
       <ProjectCounter type={true} />
       <Blog1 type={false} />

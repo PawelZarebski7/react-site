@@ -2,20 +2,20 @@
   "promo": [
     {
       "id": "p1",
-      "heading": "Industrial Solution",
-      "title": "Industry is main lorem ipsum dolor amet, consectetur adipisicing elit.",
+      "heading": "Aplikacje webowe",
+      "title": "Szybkie i responsywne strony WWW dla Ciebie.",
       "icon": "flaticon-factory"
     },
     {
       "id": "p2",
-      "heading": "Eco Development",
-      "title": "Industry is main lorem ipsum dolor amet, consectetur adipisicing elit.",
+      "heading": "Grafika",
+      "title": "Interaktywne wizytówki i ulotki, loga i wiele innych.",
       "icon": "flaticon-cogwheel"
     },
     {
       "id": "p3",
-      "heading": "Modern Technology",
-      "title": "Industry is main lorem ipsum dolor amet, consectetur adipisicing elit.",
+      "heading": "Sztuczna inteligencja",
+      "title": "Sytemy automatyzujące oparte o sztuczną inteligencję.",
       "icon": "flaticon-maintenance"
     }
   ]
