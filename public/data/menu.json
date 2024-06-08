@@ -2,7 +2,7 @@
   "menu": [
     {
       "id": "m1",
-      "text": "Home",
+      "text": "Główna",
       "link": "#",
       "dropdown": [
         {

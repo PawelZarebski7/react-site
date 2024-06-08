@@ -59,51 +59,12 @@ const HeaderArea: React.FC = () => {
                               className={`nav-link ${
                                 activeMenu === "home" ? "active" : ""
                               }`}
-                              href="#"
+                              href="/"
                             >
-                              Home
+                              Główna
                               <span className="sub-nav-toggler"> </span>
                             </a>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link to="/">Home Page 01</Link>
-                              </li>
-                              <li>
-                                <Link to="/index-2">Home Page 02</Link>
-                              </li>
-                            </ul>
                           </li>
-
-                          <li className="nav-item">
-                            <a
-                              onMouseEnter={() => setActiveMenu("pages")}
-                              className={`nav-link ${
-                                activeMenu === "pages" ? "active" : ""
-                              }`}
-                              href="#"
-                            >
-                              Pages
-                              <span className="sub-nav-toggler"> </span>
-                            </a>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link to="/about">About</Link>
-                              </li>
-                              <li>
-                                <Link to="/services">Services</Link>
-                              </li>
-                              <li>
-                                <Link to="/team">Team</Link>
-                              </li>
-                              <li>
-                                <Link to="/faq">FAQs</Link>
-                              </li>
-                              <li>
-                                <Link to="/pricing">Pricing</Link>
-                              </li>
-                            </ul>
-                          </li>
-
                           <li className="nav-item smooth-menu">
                             <Link
                               to="/services"
@@ -112,7 +73,7 @@ const HeaderArea: React.FC = () => {
                                 activeMenu === "services" ? "active" : ""
                               }`}
                             >
-                              Services
+                              Usługi
                             </Link>
                           </li>
 
@@ -124,15 +85,15 @@ const HeaderArea: React.FC = () => {
                               }`}
                               href="#"
                             >
-                              Projects
+                              Projekty
                               <span className="sub-nav-toggler"> </span>
                             </a>
                             <ul className="sub-menu">
                               <li>
-                                <Link to="/projects">Projects</Link>
+                                <Link to="/projekty">Projekty</Link>
                               </li>
                               <li>
-                                <Link to="/project/p1">Project Details</Link>
+                                <Link to="/project/p1">Szczegóły projektów</Link>
                               </li>
                             </ul>
                           </li>
@@ -143,19 +104,11 @@ const HeaderArea: React.FC = () => {
                               className={`nav-link ${
                                 activeMenu === "blogs" ? "active" : ""
                               }`}
-                              href="#"
+                              href="/blogs"
                             >
-                              Blogs
+                              Blog
                               <span className="sub-nav-toggler"> </span>
                             </a>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link to="/blogs">Blogs</Link>
-                              </li>
-                              <li>
-                                <Link to="/blog/b1">Blog Details</Link>
-                              </li>
-                            </ul>
                           </li>
 
                           <li className="nav-item smooth-menu">
@@ -166,7 +119,7 @@ const HeaderArea: React.FC = () => {
                                 activeMenu === "contact" ? "active" : ""
                               }`}
                             >
-                              Contact
+                              Kontakt
                             </Link>
                           </li>
                         </ul>

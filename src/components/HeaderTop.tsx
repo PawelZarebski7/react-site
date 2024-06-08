@@ -8,7 +8,7 @@ const HeaderTop: React.FC = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12">
               <div className="contact-info">
-                <i className="las la-envelope"></i> pawelzarebski7@wp.pl |
+              <a href="mailto:pawelzarebski7@wp.pl" style={{ color: 'white' }}><i className="las la-envelope"></i> pawelzarebski7@wp.pl</a>  |
                 <i className="las la-map-marker"></i> Ogrodowa 7, 86-010 Koronowo
               </div>
             </div>
