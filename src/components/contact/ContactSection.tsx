@@ -9,7 +9,7 @@ const ContactSection: React.FC = () => {
             <div className="col-xl-6 col-lg-6 col-12">
               <div className="contact-page google-map">
                 <iframe
-                  src="https://maps.app.goo.gl/HFd2FrQuu38niokr5"
+                  src="https://www.google.pl/maps/place/Ogrodowa+7,+86-008+Koronowo/@53.3139821,17.9395485,16z/data=!4m6!3m5!1s0x47030441aa3d36a1:0x187b07a76217a6!8m2!3d53.3147833!4d17.9398275!16s%2Fg%2F11hmqzxf6k?entry=ttu"
                   width="600"
                   height="600"
                   style={{ border: 0 }}
