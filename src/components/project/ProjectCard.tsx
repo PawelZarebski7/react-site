@@ -15,7 +15,7 @@ const ProjectCard: React.FC<Props> = ({ project, i }: Props) => {
       }`}
     >
       <div className="project-inner">
-        <Link to={`/project/${project.id}`} className="project-icon">
+        <Link to={`${project.link}`} className="project-icon" target="_blank">
           <i className="las la-arrow-right"></i>
         </Link>
         <div className="hover-info">

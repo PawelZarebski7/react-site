@@ -8,6 +8,7 @@ interface Props {
 export interface ProjectItem {
   id: string;
   title: string;
+  link: string;
 }
 
 interface RequestObject {
