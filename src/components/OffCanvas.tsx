@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 interface props {
   showOffcanvas: boolean;
   setShowOffcanvas: React.Dispatch<React.SetStateAction<boolean>>;
@@ -26,9 +27,9 @@ const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
               wdrożeń systemów no code opartych o sztuczną inteligencję, wsparcia w zakresie S.E.O oraz grafiki komputerowej.
             </p>
             <div className="mt-30 mb-30">
-              <a href="/kontakt" className="main-btn">
-                Kontakt
-              </a>
+              <Link to="/kontakt" className="main-btn">
+                  Kontakt
+              </Link>
             </div>
           </div>
           <div className="contact-list mb-40">
