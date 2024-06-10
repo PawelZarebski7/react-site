@@ -29,7 +29,7 @@ const HeroArea: React.FC<Props> = ({ type }) => {
   const request: RequestObject = useGetData({}, "/data/banner.json");
   const banner = request.banner;
   return (
-    <React.Fragment>
+    <>
       {banner?.length > 0 && (
         <Swiper
           modules={[Autoplay]}
@@ -79,7 +79,7 @@ const HeroArea: React.FC<Props> = ({ type }) => {
           ))}
         </Swiper>
       )}
-    </React.Fragment>
+    </>
   );
 };
 

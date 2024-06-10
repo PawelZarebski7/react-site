@@ -15,7 +15,7 @@ const Service2: React.FC = () => {
   const services = request.services;
 
   return (
-    <React.Fragment>
+    <>
       <div className="services-area service-two gray-bg section-padding pb-50">
         <div className="container">
           <div className="row">
@@ -68,7 +68,7 @@ const Service2: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

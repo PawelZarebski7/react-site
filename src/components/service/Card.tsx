@@ -8,7 +8,7 @@ interface Props {
 
 const Card: React.FC<Props> = ({ service }) => {
   return (
-    <React.Fragment>
+    <>
       <div className="single-service-area mb-50">
         <div className="service-img">
           <img src={service.img} alt={service.id} />
@@ -27,7 +27,7 @@ const Card: React.FC<Props> = ({ service }) => {
           </Link>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

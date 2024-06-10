@@ -8,7 +8,7 @@ interface Props {
 
 const TeamCard: React.FC<Props> = ({ member, i }) => {
   return (
-    <React.Fragment>
+    <>
       <div className="single-team-member">
         <div className={`team-member-bg ${i === 0 ? "" : `team-bg-${i + 1}`}`}>
           <div className="team-content">
@@ -21,7 +21,7 @@ const TeamCard: React.FC<Props> = ({ member, i }) => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const CommentForm: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="comments-form">
         <h3>Leave A Reply</h3>
         <p>
@@ -29,7 +29,7 @@ const CommentForm: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

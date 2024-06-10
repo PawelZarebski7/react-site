@@ -22,7 +22,7 @@ const Details: React.FC = () => {
   const request: RequestObject = useGetData({}, "/data/project-details.json");
   const details = request.details;
   return (
-    <React.Fragment>
+    <>
       <div className="project-single-section section-padding pb-0">
         <div className="container">
           <div className="row">
@@ -114,7 +114,7 @@ const Details: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

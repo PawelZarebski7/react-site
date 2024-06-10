@@ -15,7 +15,7 @@ const Promo: React.FC = () => {
   const request: RequestObject = useGetData({}, "/data/promo.json");
   const promo = request.promo;
   return (
-    <React.Fragment>
+    <>
       <div className="promo-area">
         <div className="container">
           <div className="row" v-if="promo.length > 0">
@@ -38,7 +38,7 @@ const Promo: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

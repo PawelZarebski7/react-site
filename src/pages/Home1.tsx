@@ -13,7 +13,7 @@ import {
 
 const Home1: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <HeaderTop />
       <HeaderArea />
       <HeroArea type={true} />
@@ -23,7 +23,7 @@ const Home1: React.FC = () => {
       <Testimonial1 />
       <ProjectCounter type={true} />
       <Blog1 type={false} />
-    </React.Fragment>
+    </>
   );
 };
 

@@ -6,7 +6,7 @@ const ChooseUs: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
   const [getSrc, _] = useState("https://www.youtube.com/embed/SZEflIVnhH8");
   return (
-    <React.Fragment>
+    <>
       <div className="choose-us-area">
         <div className="container-fluid">
           <div className="row gx-0">
@@ -42,7 +42,7 @@ const ChooseUs: React.FC = () => {
           ) : null}
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

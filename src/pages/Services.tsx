@@ -9,13 +9,13 @@ import {
 
 const Services: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <HeaderArea />
       <Breadcrumb />
       <Service3 />
       <ProjectCounter type={true} />
       <Testimonial1 />
-    </React.Fragment>
+    </>
   );
 };
 

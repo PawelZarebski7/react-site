@@ -3,7 +3,7 @@ import Accordion from "./Accordion";
 
 const FaqSection: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <div id="faq-page" className="faq-section section-padding">
         <div className="container">
           <div className="row">
@@ -23,7 +23,7 @@ const FaqSection: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

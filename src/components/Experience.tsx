@@ -3,7 +3,7 @@ import ProgressBar from "../utils/ProgressBar";
 
 const Experience: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <div id="about-3" className="about-area section-padding">
         <div className="container">
           <div className="row align-items-center">
@@ -77,7 +77,7 @@ const Experience: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

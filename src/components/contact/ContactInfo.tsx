@@ -18,7 +18,7 @@ const ContactInfo: React.FC = () => {
   const contact = request.contact;
 
   return (
-    <React.Fragment>
+    <>
       <div className="contact-info-wrap section-padding pt-0 pb-120">
         <div className="container">
           <div className="row">
@@ -51,7 +51,7 @@ const ContactInfo: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

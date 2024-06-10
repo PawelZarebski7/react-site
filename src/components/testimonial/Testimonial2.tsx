@@ -19,7 +19,7 @@ const Testimonial2: React.FC = () => {
   const request: RequestObject = useGetData({}, "/data/testimonials.json");
   const testimonials = request.testimonials;
   return (
-    <React.Fragment>
+    <>
       <div className="testimonial-area-2 section-padding">
         <div className="overlay"></div>
         <div className="container">
@@ -64,7 +64,7 @@ const Testimonial2: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

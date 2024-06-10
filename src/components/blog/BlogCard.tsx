@@ -8,7 +8,7 @@ interface Props {
 
 const BlogCard: React.FC<Props> = ({ blog }) => {
   return (
-    <React.Fragment>
+    <>
       <div className="single-blog-item">
         <div className="blog-bg">
           <img src={blog.img} alt="" />
@@ -31,7 +31,7 @@ const BlogCard: React.FC<Props> = ({ blog }) => {
           </Link>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="contact-section section-padding">
         <div className="container">
           <div className="row">
@@ -60,7 +60,7 @@ const ContactSection: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

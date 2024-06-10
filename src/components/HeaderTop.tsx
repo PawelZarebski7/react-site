@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderTop: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="header-top dark-bg">
         <div className="container">
           <div className="row">
@@ -31,7 +31,7 @@ const HeaderTop: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -24,7 +24,7 @@ const Testimonial1: React.FC = () => {
   const testimonials = request.testimonials;
 
   return (
-    <React.Fragment>
+    <>
       <div className="testimonial-area gray-bg section-padding pb-50">
         <div className="capricorn-testimonial">
           <div className="container">
@@ -94,7 +94,7 @@ const Testimonial1: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

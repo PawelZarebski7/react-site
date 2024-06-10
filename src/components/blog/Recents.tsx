@@ -2,7 +2,7 @@ import React from "react";
 
 const Recents: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="recent-post">
         <h5>Recent Post</h5>
         <img src="/assets/img/blog/recent-post-bg.jpg" alt="" />
@@ -27,7 +27,7 @@ const Recents: React.FC = () => {
           </p>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterBottom: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="footer-bottom">
         <div className="container">
           <div className="row justify-content-center align-items-center justify-content-center">
@@ -17,7 +17,7 @@ const FooterBottom: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

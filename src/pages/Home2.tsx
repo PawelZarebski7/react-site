@@ -14,7 +14,7 @@ import {
 
 const Home2: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <HeaderArea />
       <HeroArea type={false} />
       <About2 />
@@ -25,7 +25,7 @@ const Home2: React.FC = () => {
       <Team1 type={false} />
       <Testimonial2 />
       <Blog1 type={false} />
-    </React.Fragment>
+    </>
   );
 };
 

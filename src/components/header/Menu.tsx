@@ -10,7 +10,7 @@ interface MenuType {
 const Menu = ({ menu, setShowNav }: MenuType) => {
   const [homeSubMenu, setHomeSubMenu] = useState(false);
   return (
-    <React.Fragment>
+    <>
       <li key={menu?.id} className={`nav-item`}>
         <div className="link-item">
           <a className={`mobile-nav-link`} href={menu?.link}>
@@ -37,7 +37,7 @@ const Menu = ({ menu, setShowNav }: MenuType) => {
             ))}
         </ul>
       </li>
-    </React.Fragment>
+    </>
   );
 };
 

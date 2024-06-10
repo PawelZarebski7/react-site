@@ -24,7 +24,7 @@ const Service1: React.FC = () => {
   const services = request.services;
 
   return (
-    <React.Fragment>
+    <>
       <div className="service-section gray-bg section-padding">
         <div className="container">
           <div className="row align-items-center position-relative">
@@ -105,7 +105,7 @@ const Service1: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

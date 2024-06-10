@@ -6,7 +6,7 @@ import Recents from "./Recents";
 
 const BlogArea: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <div id="blog-page" className="blog-section section-padding">
         <div className="container">
           <div className="row">
@@ -164,7 +164,7 @@ const BlogArea: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

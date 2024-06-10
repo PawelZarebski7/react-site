@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const About2: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="about-area about-two section-padding pb-50">
         <div className="container">
           <div className="row align-items-center">
@@ -90,7 +90,7 @@ const About2: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

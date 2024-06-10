@@ -15,7 +15,7 @@ const HeaderArea: React.FC = () => {
   const [scrolled] = useOutletContext() as OutletContextType;
 
   return (
-    <React.Fragment>
+    <>
       <header className="header-area">
         <div
           className={`sticky-area ${scrolled ? "header__fixed is-sticky" : ""}`}
@@ -154,7 +154,7 @@ const HeaderArea: React.FC = () => {
         showOffcanvas={showOffcanvas}
         setShowOffcanvas={setShowOffcanvas}
       />
-    </React.Fragment>
+    </>
   );
 };
 

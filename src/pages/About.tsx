@@ -11,7 +11,7 @@ import {
 
 const About: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <HeaderArea />
       <Breadcrumb />
       <About2 />
@@ -19,7 +19,7 @@ const About: React.FC = () => {
       <ChooseUs />
       <Clients />
       <Team1 type={false} />
-    </React.Fragment>
+    </>
   );
 };
 

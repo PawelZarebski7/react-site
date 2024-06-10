@@ -7,7 +7,7 @@ interface props {
 
 const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
   return (
-    <React.Fragment>
+    <>
       <div className={`extra-info ${showOffcanvas ? "active" : ""}`}>
         <div className="close-icon menu-close">
           <button onClick={() => setShowOffcanvas((p) => !p)}>
@@ -52,7 +52,7 @@ const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
       </div>
 
       <div className={`offcanvas-overly ${showOffcanvas ? "active" : ""}`} onClick={() => setShowOffcanvas((p) => !p)}></div>
-    </React.Fragment>
+    </>
   );
 };
 

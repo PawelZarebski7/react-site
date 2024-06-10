@@ -18,7 +18,7 @@ const PricePlan: React.FC = () => {
   const request: RequestObject = useGetData({}, "/data/plans.json");
   const plans = request.plans;
   return (
-    <React.Fragment>
+    <>
       <div className="pricing-section section-padding">
         <div className="container">
           <div className="row gx-0">
@@ -59,7 +59,7 @@ const PricePlan: React.FC = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

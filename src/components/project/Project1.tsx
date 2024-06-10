@@ -19,7 +19,7 @@ const Project1: React.FC<Props> = ({ type }: { type: boolean }) => {
   const projects = request.projects;
 
   return (
-    <React.Fragment>
+    <>
       <div className={`project-area ${type ? "section-padding" : ""}`}>
         {type ? (
           <div className="container">
@@ -53,7 +53,7 @@ const Project1: React.FC<Props> = ({ type }: { type: boolean }) => {
           </div>
         )}
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

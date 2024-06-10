@@ -8,12 +8,12 @@ import {
 
 const Contact: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <HeaderArea />
       <Breadcrumb />
       <ContactSection />
       <ContactInfo />
-    </React.Fragment>
+    </>
   );
 };
 
